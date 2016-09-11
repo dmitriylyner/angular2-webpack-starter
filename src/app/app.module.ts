@@ -16,6 +16,7 @@ import { APP_RESOLVER_PROVIDERS } from './app.resolver';
 import { AppState, InteralStateType } from './app.service';
 import { Home } from './home';
 import { About } from './about';
+import { Login } from './login';
 import { NoContent } from './no-content';
 import { XLarge } from './home/x-large';
 
@@ -39,6 +40,7 @@ type StoreType = {
     App,
     About,
     Home,
+    Login,
     NoContent,
     XLarge
   ],
